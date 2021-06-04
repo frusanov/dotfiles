@@ -60,6 +60,8 @@
 
 # Deployer PHP
 !deploy.php
+!containers/
+!composer.json
 
 # Readme
 !README.md
