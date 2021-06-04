@@ -58,6 +58,9 @@
 !.tmux
 !.tmux/*.yml
 
+# DotEnv
+!.env.example
+
 # Deployer PHP
 !deploy.php
 !deployer/
