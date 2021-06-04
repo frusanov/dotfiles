@@ -60,7 +60,10 @@
 
 # Deployer PHP
 !deploy.php
-!containers/
+!deployer/
+!deployer/**/*
+!recipes/
+!recipes/**/*
 !composer.json
 
 # Readme
