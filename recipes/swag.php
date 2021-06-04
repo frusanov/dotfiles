@@ -1,4 +1,7 @@
 <?php
+
+namespace Deployer;
+
 task('swag:create', function () {
   run(`docker create \
 		--name=swag \

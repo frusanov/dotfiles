@@ -1,7 +1,4 @@
 <?php
-
-namespace Deployer;
-
 require 'recipe/common.php';
 require __DIR__ . '/vendor/autoload.php';
 
