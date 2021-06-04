@@ -60,3 +60,6 @@
 
 # Deployer PHP
 !deploy.php
+
+# Readme
+!README.md
