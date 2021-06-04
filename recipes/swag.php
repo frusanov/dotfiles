@@ -18,7 +18,7 @@ task('swag:create', function () {
     . " -e STAGING=false"
     . " -p 443:443"
     . " -p 80:80"
-    . " -v ./.config/swag:/config"
+    . " -v \"$HOME/.config/swag:/config\""
     . " --restart unless-stopped"
     . " ghcr.io/linuxserver/swag");
 });

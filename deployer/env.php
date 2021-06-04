@@ -1,5 +1,6 @@
 <?php
 
+$HOME = $_SERVER['HOME'];
 $PUID = getSafeEnv('PUID', 1000);
 $PGID = getSafeEnv('PGID', 1000);
 $TZ = getSafeEnv('TZ', 'Europe/Moscow');
