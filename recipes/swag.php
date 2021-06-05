@@ -2,12 +2,12 @@
 
 namespace Deployer;
 
-task('swag:create', function () {
+task('swag:create', function () use ($PUID, $PGID, $TZ, $URL, $EMAIL, $EXTRA_DOMAINS, $HOME) {
   run("docker create"
     . " --name=swag"
     . " --cap-add=NET_ADMIN"
     . " -e PUID=$PUID"
-    . " -e PGID=$GUID"
+    . " -e PGID=$PGID"
     . " -e TZ=$TZ"
     . " -e URL=$URL"
     . " -e SUBDOMAINS=www,"
